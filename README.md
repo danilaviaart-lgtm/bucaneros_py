@@ -12,13 +12,23 @@
 * **Blindaje contra Errores:** Sistema de validación de coordenadas para evitar cierres inesperados por entradas incorrectas.
 * **Doble Radar:** Visualización simultánea de tu flota y tu radar de ataque para una mejor estrategia.
 
-## 🛠️ Requisitos
+## 🛠️ Instalación y requisitos
 
-Para navegar en estas aguas, necesitarás:
+Asegúrate de tener **Python 3.8+** instalado en tu sistema.
 
-* **Python 3.x**
-* **NumPy:** Para la gestión de las matrices de los tableros.
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [https://github.com/danilaviaart-lgtm/bucaneros_py](https://github.com/danilaviaart-lgtm/bucaneros_py)
+    cd bucaneros
+    ```
 
-Puedes instalar las dependencias con:
-```bash
-pip install numpy
+2.  **Instala las dependencias:**
+    Este proyecto utiliza **NumPy** para optimizar el manejo de las coordenadas.
+    ```bash
+    pip install numpy
+    ```
+
+3.  **¡Zarpa a la aventura!:**
+    ```bash
+    python main.py
+    ```
