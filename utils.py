@@ -137,6 +137,19 @@ def print_lento(texto, velocidad=0.01):
         time.sleep(velocidad)
     print()
 
+# MOSTRAR TABLEROS
+
+def mostrar_tableros(p1_tablero, p1_tablero_p2):
+    print(f"\n" + " " * 7 + "TU TABLERO" + " " * 20 + "RADAR DE DISPARO")
+    print(f"   1 2 3 4 5 6 7 8 9 10          1 2 3 4 5 6 7 8 9 10")
+    
+    for i in range(10):
+        fila_num = str(i + 1).rjust(2)
+        f1 = " ".join(p1_tablero[i])
+        f2 = " ".join(p1_tablero_p2[i])
+        print(f"{fila_num} {f1}    |    {fila_num} {f2}")
+    print("\n")
+
 # MENSAJES
 
 def gana_jugador():

@@ -15,8 +15,7 @@ def playgame():
 
         if turno:
             print_turno_jugador()
-            print("TU POSICIÓN\n", p1_tablero)
-            print("RADAR DE ATAQUE:\n", p1_tablero_p2)
+            mostrar_tableros(p1_tablero,p1_tablero_p2)
             
             coord1 = input("Selecciona una fila (1-10): ")
             coord2 = input("Selecciona una columna (1-10): ")
