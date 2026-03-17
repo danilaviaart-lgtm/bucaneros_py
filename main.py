@@ -45,5 +45,4 @@ def playgame():
             gana_cpu()
             play = False
 
-
 playgame()
