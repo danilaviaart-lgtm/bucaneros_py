@@ -18,7 +18,7 @@ Asegúrate de tener **Python 3.8+** instalado en tu sistema.
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/danilaviaart-lgtm/bucaneros_py](https://github.com/danilaviaart-lgtm/bucaneros_py)
+    git clone https://github.com/danilaviaart-lgtm/bucaneros_py
     cd bucaneros
     ```
 

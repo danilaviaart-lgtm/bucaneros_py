@@ -20,7 +20,6 @@ def playgame():
             coord1 = input("Selecciona una fila (1-10): ")
             coord2 = input("Selecciona una columna (1-10): ")
             
-            # Llamamos a tu función disparo con sus argumentos
             acertado = disparo(coord1, coord2, p2_tablero, p1_tablero_p2)
             
             if not acertado:

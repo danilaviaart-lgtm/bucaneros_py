@@ -124,7 +124,7 @@ def crea_barco_aleatorio(tablero,eslora = 4):
 #  GENERA COORDENADAS PARA LA CPU
 
 def generador_coord():
-    x = np.random.randint(0,10) # Ajustado a 10 para evitar errores de índice
+    x = np.random.randint(0,10)
     y = np.random.randint(0,10)
     return int(x), int(y)
 
