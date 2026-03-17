@@ -30,7 +30,6 @@ def playgame():
             coord_maquina = generador_coord()
             print_lento(f"La CPU dispara a la casilla: {coord_maquina}")
             
-            # La CPU dispara a tu tablero
             acertado_maquina = recibir_disparo_cpu(p1_tablero, p2_tablero_p1, coord_maquina)
             
             if not acertado_maquina:
